@@ -896,17 +896,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/ssr@npm:^19.0.6":
-  version: 19.0.6
-  resolution: "@angular/ssr@npm:19.0.6"
+"@angular/ssr@npm:^19.2.16":
+  version: 19.2.16
+  resolution: "@angular/ssr@npm:19.2.16"
   dependencies:
     tslib: ^2.3.0
   peerDependencies:
-    "@angular/common": ^19.0.0
-    "@angular/core": ^19.0.0
-    "@angular/platform-server": ^19.0.0
-    "@angular/router": ^19.0.0
-  checksum: 67f597931723223691d1248f5bb86801cafa216bdc5c1ffcb423e3e013cc081fb68f42a63b298a97969de79bd3342f5660eae5b917021336f1cbd3da12edc7c0
+    "@angular/common": ^19.0.0 || ^19.2.0-next.0
+    "@angular/core": ^19.0.0 || ^19.2.0-next.0
+    "@angular/platform-server": ^19.0.0 || ^19.2.0-next.0
+    "@angular/router": ^19.0.0 || ^19.2.0-next.0
+  peerDependenciesMeta:
+    "@angular/platform-server":
+      optional: true
+  checksum: ec0cd55bb3297968e9cd5e448747b15426b24134cd4d5d01d2eae38425f90c2253a29f6ef94a384451ab23acb74d5502bf01d367e052ecb1be2c20e387f0882e
   languageName: node
   linkType: hard
 
@@ -6490,7 +6493,7 @@ __metadata:
     "@angular/platform-browser-dynamic": ^19.0.0
     "@angular/platform-server": ^19.0.0
     "@angular/router": ^19.0.0
-    "@angular/ssr": ^19.0.6
+    "@angular/ssr": ^19.2.16
     "@builder.io/sdk-angular": "workspace:*"
     "@sdk/tests": "workspace:*"
     "@types/express": ^4.17.17
