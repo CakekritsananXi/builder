@@ -6572,7 +6572,7 @@ __metadata:
     "@builder.io/widgets": ^1.2.24
     "@remix-run/dev": ^1.14.3
     "@remix-run/eslint-config": ^1.19.1
-    "@remix-run/node": ^1.14.3
+    "@remix-run/node": ^2.17.2
     "@remix-run/react": ^1.14.3
     "@remix-run/serve": ^1.14.3
     "@sdk/tests": "workspace:*"
@@ -16069,7 +16069,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@remix-run/node@npm:1.19.3, @remix-run/node@npm:^1.14.3":
+"@remix-run/node@npm:1.19.3":
   version: 1.19.3
   resolution: "@remix-run/node@npm:1.19.3"
   dependencies:
@@ -16126,6 +16126,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@remix-run/node@npm:^2.17.2":
+  version: 2.17.3
+  resolution: "@remix-run/node@npm:2.17.3"
+  dependencies:
+    "@remix-run/server-runtime": 2.17.3
+    "@remix-run/web-fetch": ^4.4.2
+    "@web3-storage/multipart-parser": ^1.0.0
+    cookie-signature: ^1.1.0
+    source-map-support: ^0.5.21
+    stream-slice: ^0.1.2
+    undici: ^6.21.2
+  peerDependencies:
+    typescript: ^5.1.0
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: e146077e5afb0f01c62ec7223af9b19c318daab5871323c2668230a42654701940d9093f5c5ac6318415676f24392cabe0450ba65d62908b54559f424aff11bd
+  languageName: node
+  linkType: hard
+
 "@remix-run/react@npm:^1.14.3":
   version: 1.19.3
   resolution: "@remix-run/react@npm:1.19.3"
@@ -16177,6 +16197,13 @@ __metadata:
   version: 1.22.0
   resolution: "@remix-run/router@npm:1.22.0"
   checksum: 09c6b29ce940d350fd33b22925c2131a828cbb0573cb12470e5abf96fdaa44714032d0a9caba89e96aeb61cc2544dabc51c227863aa51291cb763dba5dd2e316
+  languageName: node
+  linkType: hard
+
+"@remix-run/router@npm:1.23.0":
+  version: 1.23.0
+  resolution: "@remix-run/router@npm:1.23.0"
+  checksum: 6a403b7bc740f15185f3b68f90f98d4976fe231e819b44a0f0628783c4f31ca1072e3370c24b98488be3e4f68ecf51b20cb9463f20a5a6cf4c21929fc7721964
   languageName: node
   linkType: hard
 
@@ -16252,6 +16279,26 @@ __metadata:
     typescript:
       optional: true
   checksum: 708efb596ac31c1e960266fe1e5f029cee231cc10de0655bea7cdbdf9a95534e105f19d1f9a26565f8b89ffa2209f3c8359c3ddc6cfe7eef9cfba87217cf50f0
+  languageName: node
+  linkType: hard
+
+"@remix-run/server-runtime@npm:2.17.3":
+  version: 2.17.3
+  resolution: "@remix-run/server-runtime@npm:2.17.3"
+  dependencies:
+    "@remix-run/router": 1.23.0
+    "@types/cookie": ^0.6.0
+    "@web3-storage/multipart-parser": ^1.0.0
+    cookie: ^0.7.2
+    set-cookie-parser: ^2.4.8
+    source-map: ^0.7.3
+    turbo-stream: 2.4.1
+  peerDependencies:
+    typescript: ^5.1.0
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 40f67d129c366d39561d80bd054bdbcb2b17b9516bb56cd3949af51fb20ed524c92bda86c1c8c8c399acfea52d93170bcd9fc7ab0a65abfa2146f09962d2ca95
   languageName: node
   linkType: hard
 
@@ -27144,6 +27191,13 @@ __metadata:
   version: 0.4.2
   resolution: "cookie@npm:0.4.2"
   checksum: a00833c998bedf8e787b4c342defe5fa419abd96b32f4464f718b91022586b8f1bafbddd499288e75c037642493c83083da426c6a9080d309e3bd90fd11baa9b
+  languageName: node
+  linkType: hard
+
+"cookie@npm:^0.7.2":
+  version: 0.7.2
+  resolution: "cookie@npm:0.7.2"
+  checksum: 9bf8555e33530affd571ea37b615ccad9b9a34febbf2c950c86787088eb00a8973690833b0f8ebd6b69b753c62669ea60cec89178c1fb007bf0749abed74f93e
   languageName: node
   linkType: hard
 
@@ -57682,6 +57736,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"turbo-stream@npm:2.4.1":
+  version: 2.4.1
+  resolution: "turbo-stream@npm:2.4.1"
+  checksum: e2c0aa1d4796af0089a1b8b46b3b4b5e95c118eb8168f25572bd7fe7bd70d118aaa64e8207b6fe3a90e6f88dcf84f5a2ccfd2d0d067c2032ea62d7edfc3b0d3c
+  languageName: node
+  linkType: hard
+
 "turbo-stream@npm:^2.0.0":
   version: 2.1.0
   resolution: "turbo-stream@npm:2.1.0"
@@ -58386,6 +58447,13 @@ __metadata:
   version: 6.21.1
   resolution: "undici@npm:6.21.1"
   checksum: 2efc52f77224754a2efa7cb6459829f3c93c8321d17e76f574a904b353783d95073b6116f5b15637c4845d98c9dc5a019b809cb9d63b3529267e7727c49f6996
+  languageName: node
+  linkType: hard
+
+"undici@npm:^6.21.2":
+  version: 6.23.0
+  resolution: "undici@npm:6.23.0"
+  checksum: f0953920330375e76d1614381af07da9d7c21ad3244d0785b3f7bd4072635c20a1f432ef3a129baa3e4a92278ce32e9ea2ca8b5f0e0554a5739222af332c08fe
   languageName: node
   linkType: hard
 
