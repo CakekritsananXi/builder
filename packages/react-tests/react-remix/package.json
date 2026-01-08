@@ -12,7 +12,7 @@
     "@builder.io/react": "workspace:*",
     "@builder.io/widgets": "^1.2.24",
     "@remix-run/node": "^1.14.3",
-    "@remix-run/react": "^1.14.3",
+    "@remix-run/react": "^2.17.3",
     "@remix-run/serve": "^1.14.3",
     "@sdk/tests": "workspace:*",
     "isbot": "^3.6.5",
