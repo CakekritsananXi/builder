@@ -696,20 +696,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/compiler@npm:^16.2.0":
-  version: 16.2.12
-  resolution: "@angular/compiler@npm:16.2.12"
-  dependencies:
-    tslib: ^2.3.0
-  peerDependencies:
-    "@angular/core": 16.2.12
-  peerDependenciesMeta:
-    "@angular/core":
-      optional: true
-  checksum: 061903d04445acae39fb85048952a5451c3c2a198d0b55541afdc943e0cb5de3b7164c1efa4d9d2c3d92dba2dbf3143150f72449230d48074562e1c1be6f0108
-  languageName: node
-  linkType: hard
-
 "@angular/compiler@npm:^19.0.0":
   version: 19.0.5
   resolution: "@angular/compiler@npm:19.0.5"
@@ -721,6 +707,15 @@ __metadata:
     "@angular/core":
       optional: true
   checksum: 112335191b2e08b345be8b3db113df2db37b2b256c5574843d498a0f59bce22f9762fb8d5506b0bbbcec659d75e0f15c0353e64e34b8731a0b2f374099f66e6c
+  languageName: node
+  linkType: hard
+
+"@angular/compiler@npm:^19.2.18":
+  version: 19.2.18
+  resolution: "@angular/compiler@npm:19.2.18"
+  dependencies:
+    tslib: ^2.3.0
+  checksum: 618bb601a156c07db76ef016407231037c14a96fa82ca51ba1324fdeaafaf040a2b9b7925f4e27dab05223ab6daf19f91f2d49478943684ee9bc0841786d4f11
   languageName: node
   linkType: hard
 
@@ -5774,7 +5769,7 @@ __metadata:
     "@angular/animations": ^16.2.0
     "@angular/cli": ^16.2.12
     "@angular/common": ^16.2.0
-    "@angular/compiler": ^16.2.0
+    "@angular/compiler": ^19.2.18
     "@angular/compiler-cli": ^16.2.0
     "@angular/core": ^16.2.0
     "@angular/forms": ^16.2.0
@@ -6413,7 +6408,7 @@ __metadata:
     "@angular/animations": ^16.2.0
     "@angular/cli": ^16.2.12
     "@angular/common": ^16.2.0
-    "@angular/compiler": ^16.2.0
+    "@angular/compiler": ^19.2.18
     "@angular/compiler-cli": ^16.2.0
     "@angular/core": ^16.2.0
     "@angular/forms": ^16.2.0
@@ -6451,7 +6446,7 @@ __metadata:
     "@angular/animations": ^16.2.0
     "@angular/cli": ^16.2.12
     "@angular/common": ^16.2.0
-    "@angular/compiler": ^16.2.0
+    "@angular/compiler": ^19.2.18
     "@angular/compiler-cli": ^16.2.0
     "@angular/core": ^16.2.0
     "@angular/forms": ^16.2.0
@@ -17847,7 +17842,7 @@ __metadata:
     "@angular/animations": ^16.2.0
     "@angular/cli": ^16.2.12
     "@angular/common": ^16.2.0
-    "@angular/compiler": ^16.2.0
+    "@angular/compiler": ^19.2.18
     "@angular/compiler-cli": ^16.2.0
     "@angular/core": ^16.2.0
     "@angular/forms": ^16.2.0
@@ -17884,7 +17879,7 @@ __metadata:
     "@angular/animations": ^16.2.0
     "@angular/cli": ^16.2.12
     "@angular/common": ^16.2.0
-    "@angular/compiler": ^16.2.0
+    "@angular/compiler": ^19.2.18
     "@angular/compiler-cli": ^16.2.0
     "@angular/core": ^16.2.0
     "@angular/forms": ^16.2.0
